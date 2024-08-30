@@ -1,0 +1,29 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header li {
+  margin-right: 1rem;
+}
+
+.header a, .header button {
+  text-decoration: none;
+  color: #007bff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.header a:hover, .header button:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.postList {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.postItem {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.postItem h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.postItem p {
+  color: #666;
+}
